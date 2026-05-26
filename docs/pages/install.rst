@@ -41,7 +41,7 @@ And that's it! To confirm that everything has installed correctly you can run th
 
     python -c "import backpop; print(backpop.__version__)"
 
-If you see the version number printed out without any errors, then you're all set to start using ``BackPop``! For more information on getting started, check out the Quickstart page.
+If you see the version number printed out without any errors, then you're all set to start using ``BackPop``! For more information on getting started, check out the :ref:`getting_started` page.
 
 Installing from source with GitHub
 ----------------------------------
