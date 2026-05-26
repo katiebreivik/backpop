@@ -60,5 +60,3 @@ Once cloned, navigate to the BackPop directory and install it using pip:
 
     cd backpop
     pip install .
-
-Now that BackPop is installed, you can model binaries as described in the :ref:`tutorials` page.
