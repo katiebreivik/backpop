@@ -25,7 +25,7 @@ import hacks
 # -- Project information -----------------------------------------------------
 
 project = "BackPop"
-author = "Tom Wagg, Katie Breivik & Kaze Wong"
+author = "Tom Wagg, Katie Breivik, Kaze Wong & Hannah Skobe"
 copyright = '{0}, {1}'.format(datetime.datetime.now().year, author)
 
 
@@ -47,7 +47,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinxcontrib.bibtex',
     'sphinx.ext.intersphinx',
-    # 'sphinx_copybutton',
+    'sphinx_copybutton',
     'sphinx.ext.linkcode',
     'sphinx_togglebutton'
 ]
@@ -97,7 +97,7 @@ exclude_patterns = [
 # a list of builtin themes.
 #
 html_theme = 'sphinx_immaterial'
-html_logo = '_static/backpop-square.png'
+html_logo = '_static/tina_backpop.png'
 
 html_theme_options = {
 
