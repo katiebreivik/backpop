@@ -25,7 +25,7 @@ import hacks
 # -- Project information -----------------------------------------------------
 
 project = "BackPop"
-author = "Tom Wagg, Katie Breivik, Kaze Wong & Hannah Skobe"
+author = "Tom Wagg, Katie Breivik, Kaze Wong, & Hannah Skobe"
 copyright = '{0}, {1}'.format(datetime.datetime.now().year, author)
 
 
@@ -153,7 +153,7 @@ html_theme_options = {
 
 html_last_updated_fmt = "%Y %b %d at %H:%M:%S UTC"
 html_show_sourcelink = False
-html_favicon = "_static/tina_circle.png"
+html_favicon = "_static/tina_circle.ico"
 
 # html_sidebars = {
 #     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"],
