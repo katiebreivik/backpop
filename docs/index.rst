@@ -1,8 +1,6 @@
 Home
 ====
 
-.. Hell world
-
 .. raw:: html
 
     <div style="text-align:center; padding-top: 1rem">
@@ -10,22 +8,27 @@ Home
         <h4>A tool to sample the joint distributions of initial binary parameters and binary interaction assumptions</h4>
     </div>
 
+.. raw:: html
 
-.. test some code highlighting
-
-.. code-block:: python
-
-    from backpop import BackPop
-    bp = BackPop(config_file="example.ini")
-    posteriors = bp.run_sampler()
-    posteriors.cornerplot()
+    <div class="toms-nav-container" style="margin-bottom:50px;">
+        <div class="box" data-href="pages/install.html">Install BackPop</div>
+        <div class="box" data-href="pages/quickstart.html">Quickstart</div>
+        <div class="box" data-href="pages/tutorials.html">Detailed tutorials</div>
+        <div class="box" data-href="pages/modules.html">Explore the User Guide</div>
+    </div>
 
 .. toctree::
    :maxdepth: 10
    :hidden:
 
    pages/install
-   pages/getting_started
+   pages/quickstart
    pages/tutorials
    pages/modules
    pages/cite
+
+*****************
+API documentation
+*****************
+
+For details on the BackPop modules, please look here: :ref:`modindex`
