@@ -15,6 +15,7 @@ import sys
 import inspect
 import pathlib
 import datetime
+import time
 sys.path.insert(0, os.path.abspath('.'))
 
 # HACKS - credit to "https://github.com/rodluger/starry_process"
@@ -156,15 +157,19 @@ html_show_sourcelink = False
 html_favicon = "_static/tina_circle.ico"
 
 # html_sidebars = {
-#     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"],
-#     "index": ["logo-text.html", "globaltoc.html", "searchbox.html"],
+#     "*": ["sidebar-nav-bs.html"],
+#     "index": [],
+#     "pages/install": ["page-toc"],
+#     "pages/getting_started": ["page-toc"],
+#     "pages/tutorials": [],
+#     "pages/cite": []
 # }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_css_files = ["custom.css"]
+html_css_files = [("custom.css", {'v': str(int(time.time()))})]
 html_js_files = ['custom.js']
 
 # autodocs
