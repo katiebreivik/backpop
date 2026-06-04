@@ -98,7 +98,7 @@ exclude_patterns = [
 # a list of builtin themes.
 #
 html_theme = 'sphinx_immaterial'
-html_logo = '_static/tina_circle.png'
+html_logo = '_static/tina.png'
 
 html_theme_options = {
 
@@ -154,7 +154,7 @@ html_theme_options = {
 
 html_last_updated_fmt = "%Y %b %d at %H:%M:%S UTC"
 html_show_sourcelink = False
-html_favicon = "_static/tina_circle.ico"
+html_favicon = "_static/dco_merger.ico"
 
 # html_sidebars = {
 #     "*": ["sidebar-nav-bs.html"],
